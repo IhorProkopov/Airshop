@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<security>
+    <constraint>
+        <url-pattern>/Airshop/buyingpage</url-pattern>
+        <role>ADMIN</role >
+        <role>USER</role >
+    </constraint>
+</security>
+
+
+
+
+

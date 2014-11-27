@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+form.registration {
+	height: 25%;
+	width: 25%;
+	position: fixed;
+	left: 50%;
+	top: 30%;
+	margin: -200px 0 0 -200px;
+}
+
+div[name="productThumbnail"] {
+	margin-top: 50px
+}

@@ -1,0 +1,22 @@
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>2.0</jsp-version>
+	<tag>
+		<name>captcha</name>
+		<uri>http://www.shop.com/captcha</uri>
+		<tag-class>com.epam.prokopov.shop.jsp.custom.taglib.CaptchaTagHandler
+		</tag-class>
+		<body-content>empty</body-content>		
+		<attribute>
+			<name>id</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>hidden</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>boolean</type>
+		</attribute>
+	</tag>
+</taglib>
