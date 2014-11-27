@@ -106,8 +106,8 @@ public class ApplicationContextListener implements ServletContextListener {
             @Override
             public <T> T execute(Connection connection) throws SQLException {
                 Statement stmt = connection.createStatement();
-                stmt.executeUpdate("CREATE DATABASE IF NOT EXISTS airshop;");
-                stmt.executeUpdate("USE airshop;");
+//                stmt.executeUpdate("CREATE DATABASE IF NOT EXISTS airshop;");
+//                stmt.executeUpdate("USE airshop;");
                 stmt.executeUpdate("CREATE TABLE IF NOT EXISTS `user` (\n" +
                         " `key` INT NOT NULL AUTO_INCREMENT,\n" +
                         " `email` VARCHAR(45) NOT NULL,\n" +

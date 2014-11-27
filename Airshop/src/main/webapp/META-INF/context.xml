@@ -2,10 +2,10 @@
 <Context>
     <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver"
               maxActive="20" maxIdle="10" maxWait="-1" name="jdbc/airshop"
-              username="root" password="admin" type="javax.sql.DataSource"
-              url="jdbc:mysql://localhost:3306/airshop"/>
+              username="adminaa7v6GF" password="V9-aQfINNUpv" type="javax.sql.DataSource"
+              url="jdbc:mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/airshop"/>
     <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver"
               maxActive="20" maxIdle="10" maxWait="-1" name="creation"
-              username="root" password="admin" type="javax.sql.DataSource"
-              url="jdbc:mysql://localhost:3306"/>
+              username="adminaa7v6GF" password="V9-aQfINNUpv" type="javax.sql.DataSource"
+              url="jdbc:mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/airshop"/>
 </Context>
